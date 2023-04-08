@@ -1,0 +1,61 @@
+/* body{
+    background: #ffe2cd;
+} */
+
+.text-black-v{
+    color: black;
+}
+
+.text-gray-v{
+    color: rgb(110, 110, 110);
+}
+
+.gray-bg-v{
+    background-color: #efefef;
+}
+
+.clients .clients-slider .swiper-slide img {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  
+  .clients .clients-slider .swiper-slide img:hover {
+    opacity: 1;
+  }
+  
+  .clients .clients-slider .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #4154f1;
+  }
+  
+  .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #4154f1;
+  }
+
+  
+.blur-v{
+    background-image: url("/images/education.png");
+      -webkit-filter: blur(100px);
+    filter: blur(70px);
+
+}
+
+@media (max-width:991px) {
+  .title-image {
+      text-align: center;
+  }
+
+  .rotate180 {
+      transform: rotate(0deg);
+      width: 60%;  
+      max-width: 500px;
+  }
+}
